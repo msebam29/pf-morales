@@ -1,0 +1,31 @@
+.main-discografia{
+    background-color: black;
+    color: white;
+    border: black solid;
+    height: 100%;
+    h1 {
+        display: block;
+        text-align: -webkit-center;
+        font-family: 'Dokdo', cursive;
+    }
+    section{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;    
+    }
+    div{
+        display: block;
+        text-align: center;
+        width: 157px;
+    }
+    img{
+        width: 80%;
+    }
+    p{
+        font-family: 'Dokdo', cursive;
+    }
+    small{
+        font-family: 'Dokdo', cursive;
+    }
+}

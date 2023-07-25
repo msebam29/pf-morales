@@ -1,0 +1,41 @@
+.main-tienda{
+    background-color: black;
+    color: white;
+    border: black solid;
+    h1 {
+        font-family: 'Dokdo', cursive;
+        display: block;
+        text-align: -webkit-center;
+    }
+    img{
+        width: 300px;
+    }
+    div{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+    }
+    section{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;    
+    }
+    p{
+        font-family: 'Dokdo', cursive;
+    }
+    small{
+        font-family: 'Dokdo', cursive;
+    }
+}
+
+@media (min-width: 1024px){
+    .main-tienda{
+        section{
+            margin: 40px;
+        }
+    }
+}

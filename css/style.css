@@ -2,3 +2,206 @@
   margin: 0;
   padding: 0;
   font-family: sans-serif; }
+
+.header {
+  background-color: black;
+  border: black solid;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.7fr 0.3fr;
+  align-items: center;
+  justify-items: center;
+  grid-template-areas: "logo" "nav"; }
+  .header a {
+    grid-area: logo;
+    color: #d41414;
+    text-decoration: none;
+    font-family: 'Rock Salt', cursive; }
+  .header img {
+    width: 100px; }
+  .header nav {
+    grid-area: nav; }
+    .header nav .nav-link:hover {
+      color: white; }
+
+.footer {
+  background-color: black;
+  color: red;
+  border: solid black;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center; }
+  .footer section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; }
+  .footer img {
+    width: 30px;
+    margin-left: 15px; }
+  .footer p {
+    font-family: 'Rock Salt', cursive; }
+  .footer small {
+    font-family: 'Rock Salt', cursive; }
+
+@media (min-width: 768px) {
+  .footer {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: flex-start; } }
+
+.main {
+  background-color: black;
+  border: black solid;
+  color: white; }
+
+.main-shows {
+  background-color: black;
+  color: white;
+  border: black solid; }
+  .main-shows h1 {
+    display: block;
+    text-align: -webkit-center;
+    font-family: 'Dokdo', cursive; }
+  .main-shows a {
+    font-family: 'Dokdo', cursive; }
+  .main-shows .shows {
+    display: flex;
+    flex-direction: column; }
+  .main-shows .show-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .main-shows .show-principal img {
+      width: 100%; }
+    .main-shows .show-principal p {
+      line-height: 10px;
+      text-align: center;
+      font-family: 'Dokdo', cursive; }
+  .main-shows .shows-chicos {
+    display: flex;
+    flex-direction: row;
+    align-items: center; }
+    .main-shows .shows-chicos img {
+      width: 40%; }
+    .main-shows .shows-chicos p {
+      width: 60%;
+      font-size: small;
+      line-height: 7px;
+      font-family: 'Dokdo', cursive; }
+
+@media (min-width: 768px) {
+  .main-shows .shows-chicos img {
+    width: 50%; }
+  .main-shows .shows-chicos p {
+    width: 50%;
+    font-family: 'Dokdo', cursive;
+    font-size: large;
+    line-height: normal; } }
+
+@media (min-width: 1024px) {
+  .main-shows .shows {
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+  .main-shows .show-principal img {
+    height: 75%; }
+  .main-shows .show-principal p {
+    font-size: large; }
+  .main-shows .shows-secundarios {
+    overflow: scroll; }
+  .main-shows .shows-chicos {
+    display: flex;
+    flex-direction: row; }
+    .main-shows .shows-chicos img {
+      height: 300px; } }
+
+.main-discografia {
+  background-color: black;
+  color: white;
+  border: black solid;
+  height: 100%; }
+  .main-discografia h1 {
+    display: block;
+    text-align: -webkit-center;
+    font-family: 'Dokdo', cursive; }
+  .main-discografia section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; }
+  .main-discografia div {
+    display: block;
+    text-align: center;
+    width: 157px; }
+  .main-discografia img {
+    width: 80%; }
+  .main-discografia p {
+    font-family: 'Dokdo', cursive; }
+  .main-discografia small {
+    font-family: 'Dokdo', cursive; }
+
+.main-tienda {
+  background-color: black;
+  color: white;
+  border: black solid; }
+  .main-tienda h1 {
+    font-family: 'Dokdo', cursive;
+    display: block;
+    text-align: -webkit-center; }
+  .main-tienda img {
+    width: 300px; }
+  .main-tienda div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around; }
+  .main-tienda section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; }
+  .main-tienda p {
+    font-family: 'Dokdo', cursive; }
+  .main-tienda small {
+    font-family: 'Dokdo', cursive; }
+
+@media (min-width: 1024px) {
+  .main-tienda section {
+    margin: 40px; } }
+
+.main-contacto {
+  background-color: black;
+  color: white;
+  border: black solid;
+  height: 100%; }
+  .main-contacto div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; }
+    .main-contacto div form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      .main-contacto div form input {
+        margin: 20px; }
+  .main-contacto h1 {
+    font-family: 'Dokdo', cursive;
+    display: block;
+    text-align: -webkit-center; }
+  .main-contacto img {
+    width: 100%; }
+
+@media (min-width: 1024px) {
+  .main-contacto div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; }
+  .main-contacto img {
+    width: 60%; } }

@@ -1,0 +1,31 @@
+.header {
+    background-color: black;
+    border: black solid;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.7fr 0.3fr;
+    align-items: center;
+    justify-items: center;
+    grid-template-areas:
+        "logo"
+        "nav";
+
+    a {
+        grid-area: logo;
+        color: rgb(212, 20, 20);
+        text-decoration: none;
+        font-family: 'Rock Salt', cursive;
+    }
+
+    img {
+        width: 100px;
+    }
+
+    nav {
+        grid-area: nav;
+        .nav-link:hover{
+            color: white;
+        }
+    }
+
+}

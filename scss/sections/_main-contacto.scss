@@ -1,0 +1,42 @@
+.main-contacto{
+    background-color: black;
+    color: white;
+    border: black solid;
+    height: 100%;
+    div{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        form{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            input{
+                margin: 20px;
+            }
+        }
+    }
+    h1{
+        font-family: 'Dokdo', cursive;
+        display: block;
+        text-align: -webkit-center;
+    }
+    img{
+        width: 100%;
+    }
+}
+@media (min-width: 1024px){
+    .main-contacto{
+        div{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+        }
+        img{
+            width: 60%;
+        }
+    } 
+}
