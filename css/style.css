@@ -121,8 +121,7 @@
 .main-discografia {
   background-color: black;
   color: white;
-  border: black solid;
-  height: 100%; }
+  border: black solid; }
   .main-discografia h1 {
     display: block;
     text-align: -webkit-center;
@@ -131,17 +130,23 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center; }
+    justify-content: space-around; }
   .main-discografia div {
     display: block;
     text-align: center;
     width: 157px; }
-  .main-discografia img {
-    width: 80%; }
-  .main-discografia p {
-    font-family: 'Dokdo', cursive; }
-  .main-discografia small {
-    font-family: 'Dokdo', cursive; }
+    .main-discografia div img {
+      width: 85%; }
+    .main-discografia div p {
+      font-family: 'Dokdo', cursive; }
+    .main-discografia div small {
+      font-family: 'Dokdo', cursive; }
+
+@media (min-width: 1024px) {
+  .main-discografia {
+    height: 100%; }
+    .main-discografia div {
+      width: 300px; } }
 
 .main-tienda {
   background-color: black;
