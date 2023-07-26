@@ -2,6 +2,7 @@
     background-color: black;
     color: white;
     border: black solid;
+    height: 100%;
     
     h1 {
         display: block;
@@ -20,6 +21,9 @@
         width: 157px;
         img{
             width: 85%;
+        }
+        &:hover img{
+            width: 100%;
         }
         p{
             font-family: 'Dokdo', cursive;
