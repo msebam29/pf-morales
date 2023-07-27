@@ -55,7 +55,7 @@
   background-color: black;
   border: black solid;
   color: white;
-  height: 100vh; }
+  min-height: 100vh; }
 
 .main-shows {
   background-color: black;
