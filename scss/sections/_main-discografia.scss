@@ -2,6 +2,7 @@
     background-color: black;
     color: white;
     border: black solid;
+    min-height: 100vh;
     padding: 30px;
     
     h1 {
@@ -28,12 +29,7 @@
         p{
             font-family: 'Dokdo', cursive;
         }
-        small{
-            font-family: 'Dokdo', cursive;
-        }
     }
-    
-    
 }
 
 @media (min-width: 1024px){

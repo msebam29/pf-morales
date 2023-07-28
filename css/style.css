@@ -65,6 +65,8 @@
     display: block;
     text-align: -webkit-center;
     font-family: 'Dokdo', cursive; }
+  .main-shows h2 {
+    font-family: 'Dokdo', cursive; }
   .main-shows a {
     font-family: 'Dokdo', cursive; }
   .main-shows .shows {
@@ -141,6 +143,7 @@
   background-color: black;
   color: white;
   border: black solid;
+  min-height: 100vh;
   padding: 30px; }
   .main-discografia h1 {
     display: block;
@@ -160,8 +163,6 @@
     .main-discografia div:hover img {
       width: 100%; }
     .main-discografia div p {
-      font-family: 'Dokdo', cursive; }
-    .main-discografia div small {
       font-family: 'Dokdo', cursive; }
 
 @media (min-width: 1024px) {
