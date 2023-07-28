@@ -6,14 +6,14 @@
     h1 {
         display: block;
         text-align: -webkit-center;
-        font-family: 'Dokdo', cursive;
+        font-family: $fuente-cortos;
     }
     h2{
-        font-family: 'Dokdo', cursive;
+        font-family: $fuente-cortos;
     }
 
     a {
-        font-family: 'Dokdo', cursive;
+        font-family: $fuente-cortos;
     }
 
     .shows {
@@ -37,7 +37,7 @@
         p {
             line-height: 10px;
             text-align: center;
-            font-family: 'Dokdo', cursive;
+            font-family: $fuente-cortos;
         }
     }
     
@@ -58,7 +58,7 @@
             width: 60%;
             font-size: small;
             line-height: 7px;
-            font-family: 'Dokdo', cursive;
+            font-family: $fuente-cortos;
         }
     }
 }
@@ -72,7 +72,7 @@
     
             p {
                 width: 50%;
-                font-family: 'Dokdo', cursive;
+                font-family: $fuente-cortos;
                 font-size: large;
                 line-height: normal;
             }

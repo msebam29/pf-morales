@@ -3,7 +3,7 @@
     color: white;
     border: black solid;
     h1 {
-        font-family: 'Dokdo', cursive;
+        font-family: $fuente-cortos;
         display: block;
         text-align: -webkit-center;
     }
@@ -25,10 +25,10 @@
         align-items: center;    
     }
     p{
-        font-family: 'Dokdo', cursive;
+        font-family: $fuente-largos;
     }
     small{
-        font-family: 'Dokdo', cursive;
+        font-family: $fuente-cortos;
     }
 }
 

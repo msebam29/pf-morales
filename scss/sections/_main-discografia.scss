@@ -8,7 +8,7 @@
     h1 {
         display: block;
         text-align: -webkit-center;
-        font-family: 'Dokdo', cursive;
+        font-family: $fuente-cortos;
     }
     section{
         display: flex;
@@ -27,7 +27,7 @@
             width: 100%;
         }
         p{
-            font-family: 'Dokdo', cursive;
+            font-family: $fuente-cortos;
         }
     }
 }
