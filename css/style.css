@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Dokdo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -16,7 +19,7 @@
     grid-area: logo;
     color: #d41414;
     text-decoration: none;
-    font-family: 'Rock Salt', cursive; }
+    font-family: "Rock Salt", cursive; }
   .header img {
     width: 100px; }
   .header nav {
@@ -40,9 +43,8 @@
     width: 30px;
     margin-left: 15px; }
   .footer p {
-    font-family: 'Rock Salt', cursive; }
-  .footer small {
-    font-family: 'Rock Salt', cursive; }
+    font-family: "Dokdo", cursive;
+    font-size: x-large; }
 
 @media (min-width: 768px) {
   .footer {
@@ -64,51 +66,41 @@
   .main-shows h1 {
     display: block;
     text-align: -webkit-center;
-    font-family: 'Dokdo', cursive; }
+    font-family: "Dokdo", cursive; }
   .main-shows h2 {
-    font-family: 'Dokdo', cursive; }
+    font-family: "Dokdo", cursive; }
   .main-shows a {
-    font-family: 'Dokdo', cursive; }
+    font-family: "Dokdo", cursive; }
   .main-shows .shows {
     display: flex;
     flex-direction: column; }
-  .main-shows .show-principal {
+  .main-shows .show-principal, .main-shows .shows-chicos {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     margin: 30px;
     padding: 15px;
-    border: 2px #fdfcfc solid;
+    border: 2px #ffffff solid;
     border-radius: 5%; }
-    .main-shows .show-principal img {
+    .main-shows .show-principal img, .main-shows .shows-chicos img {
       width: 100%; }
-    .main-shows .show-principal p {
+    .main-shows .show-principal p, .main-shows .shows-chicos p {
       line-height: 10px;
       text-align: center;
-      font-family: 'Dokdo', cursive; }
+      font-family: "Dokdo", cursive; }
   .main-shows .shows-chicos {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    margin: 30px;
-    padding: 15px;
-    border: 2px white solid;
-    border-radius: 5%; }
+    justify-content: center;
+    align-items: center; }
     .main-shows .shows-chicos img {
       width: 40%; }
-    .main-shows .shows-chicos p {
-      width: 60%;
-      font-size: small;
-      line-height: 7px;
-      font-family: 'Dokdo', cursive; }
 
 @media (min-width: 768px) {
   .main-shows .shows-chicos img {
     width: 50%; }
   .main-shows .shows-chicos p {
-    width: 50%;
-    font-family: 'Dokdo', cursive;
-    font-size: large;
     line-height: normal; } }
 
 @media (min-width: 1024px) {
@@ -126,9 +118,9 @@
       background-color: grey;
       border: 2px solid #f1f2f3;
       border-radius: 20px; }
-  .main-shows .show-principal img {
+  .main-shows .show-principal img, .main-shows .shows-chicos img {
     height: 75%; }
-  .main-shows .show-principal p {
+  .main-shows .show-principal p, .main-shows .shows-chicos p {
     font-size: large; }
   .main-shows .shows-secundarios {
     overflow: auto;
@@ -148,7 +140,7 @@
   .main-discografia h1 {
     display: block;
     text-align: -webkit-center;
-    font-family: 'Dokdo', cursive; }
+    font-family: "Dokdo", cursive; }
   .main-discografia section {
     display: flex;
     flex-direction: row;
@@ -163,7 +155,7 @@
     .main-discografia div:hover img {
       width: 100%; }
     .main-discografia div p {
-      font-family: 'Dokdo', cursive; }
+      font-family: "Dokdo", cursive; }
 
 @media (min-width: 1024px) {
   .main-discografia {
@@ -176,7 +168,7 @@
   color: white;
   border: black solid; }
   .main-tienda h1 {
-    font-family: 'Dokdo', cursive;
+    font-family: "Dokdo", cursive;
     display: block;
     text-align: -webkit-center; }
   .main-tienda img {
@@ -193,9 +185,9 @@
     justify-content: center;
     align-items: center; }
   .main-tienda p {
-    font-family: 'Dokdo', cursive; }
+    font-family: "Architects Daughter", cursive; }
   .main-tienda small {
-    font-family: 'Dokdo', cursive; }
+    font-family: "Dokdo", cursive; }
 
 @media (min-width: 1024px) {
   .main-tienda section {
@@ -222,7 +214,7 @@
       .main-contacto div form .mensaje {
         height: 150px; }
   .main-contacto h1 {
-    font-family: 'Dokdo', cursive;
+    font-family: "Dokdo", cursive;
     display: block;
     text-align: -webkit-center; }
   .main-contacto img {
