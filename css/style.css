@@ -7,6 +7,11 @@
   font-family: sans-serif; }
 
 .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
   background-image: linear-gradient(#2c2b2b, black);
   border: black solid;
   display: grid;
@@ -54,12 +59,14 @@
     align-items: flex-start; } }
 
 .main {
+  margin-top: 150px;
   background-color: black;
   border: black solid;
   color: white;
   min-height: 100vh; }
 
 .main-shows {
+  margin-top: 150px;
   background-color: black;
   color: white;
   border: black solid; }
@@ -132,6 +139,7 @@
       height: 300px; } }
 
 .main-discografia {
+  margin-top: 150px;
   background-color: black;
   color: white;
   border: black solid;
@@ -155,7 +163,8 @@
     .main-discografia div:hover img {
       width: 100%; }
     .main-discografia div p {
-      font-family: "Dokdo", cursive; }
+      font-family: "Dokdo", cursive;
+      line-height: 10px; }
 
 @media (min-width: 1024px) {
   .main-discografia {
@@ -164,6 +173,7 @@
       width: 300px; } }
 
 .main-tienda {
+  margin-top: 150px;
   background-color: black;
   color: white;
   border: black solid; }
@@ -194,6 +204,7 @@
     margin: 40px; } }
 
 .main-contacto {
+  margin-top: 150px;
   background-color: black;
   color: white;
   border: black solid;
