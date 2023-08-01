@@ -70,7 +70,7 @@
   background-color: black;
   color: white;
   border: black solid; }
-  .main-shows h1 {
+  .main-shows h1, .main-shows .main-biografia h2, .main-biografia .main-shows h2 {
     display: block;
     text-align: -webkit-center;
     font-family: "Dokdo", cursive; }
@@ -145,7 +145,7 @@
   border: black solid;
   min-height: 100vh;
   padding: 30px; }
-  .main-discografia h1 {
+  .main-discografia h1, .main-discografia .main-biografia h2, .main-biografia .main-discografia h2 {
     display: block;
     text-align: -webkit-center;
     font-family: "Dokdo", cursive; }
@@ -172,36 +172,41 @@
     .main-discografia div {
       width: 300px; } }
 
-.main-tienda {
+.main-biografia {
   margin-top: 150px;
   background-color: black;
   color: white;
   border: black solid; }
-  .main-tienda h1 {
+  .main-biografia h1, .main-biografia h2 {
     font-family: "Dokdo", cursive;
     display: block;
     text-align: -webkit-center; }
-  .main-tienda img {
-    width: 300px; }
-  .main-tienda div {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around; }
-  .main-tienda section {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center; }
-  .main-tienda p {
-    font-family: "Architects Daughter", cursive; }
-  .main-tienda small {
-    font-family: "Dokdo", cursive; }
-
-@media (min-width: 1024px) {
-  .main-tienda section {
-    margin: 40px; } }
+  .main-biografia .integrantes {
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr;
+    gap: 0px 0px;
+    grid-template-areas: "chizzo tete tanque manu"; }
+    .main-biografia .integrantes .chizzo {
+      grid-area: chizzo; }
+    .main-biografia .integrantes .tete {
+      grid-area: tete; }
+    .main-biografia .integrantes .tanque {
+      grid-area: tanque; }
+    .main-biografia .integrantes .manu {
+      grid-area: manu; }
+    .main-biografia .integrantes div {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      .main-biografia .integrantes div p {
+        font-family: "Dokdo", cursive;
+        line-height: 12px; }
+      .main-biografia .integrantes div img {
+        width: 100%;
+        height: 60%; }
 
 .main-contacto {
   margin-top: 150px;
@@ -224,7 +229,7 @@
         width: 300px; }
       .main-contacto div form .mensaje {
         height: 150px; }
-  .main-contacto h1 {
+  .main-contacto h1, .main-contacto .main-biografia h2, .main-biografia .main-contacto h2 {
     font-family: "Dokdo", cursive;
     display: block;
     text-align: -webkit-center; }
