@@ -208,51 +208,64 @@
       .main-biografia .integrantes div img {
         width: 100%;
         height: 60%; }
-
-@media (min-width: 768px) {
-  .integrantes {
-    display: grid;
-    grid-auto-columns: 1fr;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 0.2fr;
-    gap: 0px 0px;
-    grid-template-areas: "chizzo tete tanque manu"; }
-    .integrantes .chizzo {
-      grid-area: chizzo; }
-    .integrantes .tete {
-      grid-area: tete; }
-    .integrantes .tanque {
-      grid-area: tanque; }
-    .integrantes .manu {
-      grid-area: manu; }
-    .integrantes div {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      background-color: black; }
-      .integrantes div p {
-        font-family: "Dokdo", cursive;
-        line-height: 12px; }
-      .integrantes div img {
-        width: 100%;
-        height: 60%; }
-  .biografia {
-    margin-left: 20%;
-    margin-right: 20%;
-    text-align: justify; }
-    .biografia p {
+  .main-biografia .biografia {
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    line-height: 18px; }
+    .main-biografia .biografia p {
       font-family: "Space Mono", monospace; }
-    .biografia .img-1, .biografia .img-2, .biografia .img-3 {
-      float: left;
-      width: 35%;
-      margin: 15px; }
-    .biografia .img-2 {
-      float: right; }
-    .biografia .img-4 {
-      display: block;
-      margin: auto;
-      max-width: 80%; } }
+    .main-biografia .biografia img {
+      width: 90%; }
+  @media (min-width: 768px) {
+    .main-biografia .integrantes {
+      display: grid;
+      grid-auto-columns: 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 0.2fr;
+      gap: 0px 0px;
+      grid-template-areas: "chizzo tete tanque manu"; }
+      .main-biografia .integrantes .chizzo {
+        grid-area: chizzo; }
+      .main-biografia .integrantes .tete {
+        grid-area: tete; }
+      .main-biografia .integrantes .tanque {
+        grid-area: tanque; }
+      .main-biografia .integrantes .manu {
+        grid-area: manu; }
+      .main-biografia .integrantes div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: black; }
+        .main-biografia .integrantes div p {
+          font-family: "Dokdo", cursive;
+          line-height: 12px; }
+        .main-biografia .integrantes div img {
+          width: 100%;
+          height: 60%; }
+    .main-biografia .biografia {
+      margin-left: 20%;
+      margin-right: 20%;
+      text-align: justify;
+      display: inline-block; }
+      .main-biografia .biografia p {
+        font-family: "Space Mono", monospace; }
+      .main-biografia .biografia .img-1, .main-biografia .biografia .img-2, .main-biografia .biografia .img-3 {
+        float: left;
+        width: 35%;
+        margin: 15px; }
+      .main-biografia .biografia .img-2 {
+        float: right; }
+      .main-biografia .biografia .img-4 {
+        display: block;
+        margin: auto;
+        max-width: 80%; } }
 
 .main-contacto {
   margin-top: 150px;

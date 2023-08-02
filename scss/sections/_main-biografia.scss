@@ -52,31 +52,19 @@
         }
     }
     .biografia {
-        margin-left: 5px;
-        margin-right: 5px;
+        margin-left: 10px;
+        margin-right: 10px;
         @include flex-column-center;
         text-align: justify;
+        line-height: 18px;
 
         p {
             font-family: $fuente-biografia;
         }
-
-        .img-1 {
-            width: 35%;
-        }
-
-        .img-2 {
-            @extend .img-1;
-        }
-        .img-3{
-            @extend .img-1;
-        }
-
-        .img-4 {
-            @extend .img-1;
+        img{
+            width: 90%;
         }
     }
-}
 @media (min-width: 768px){    
     .integrantes {
         display: grid;
@@ -122,17 +110,15 @@
         margin-left: 20%;
         margin-right: 20%;
         text-align: justify;
-
+        display: inline-block;
         p {
             font-family: $fuente-biografia;
         }
-
         .img-1 {
             float: left;
             width: 35%;
             margin: 15px;
         }
-
         .img-2 {
             @extend .img-1;
             float: right;
@@ -140,11 +126,11 @@
         .img-3{
             @extend .img-1;
         }
-
         .img-4 {
             display: block;
             margin: auto;
             max-width: 80%;
         }
     }
+}
 }
