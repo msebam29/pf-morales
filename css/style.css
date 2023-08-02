@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Dokdo&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -184,10 +185,10 @@
   .main-biografia .integrantes {
     display: grid;
     grid-auto-columns: 1fr;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 0.2fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     gap: 0px 0px;
-    grid-template-areas: "chizzo tete tanque manu"; }
+    grid-template-areas: "chizzo tete"  "tanque manu"; }
     .main-biografia .integrantes .chizzo {
       grid-area: chizzo; }
     .main-biografia .integrantes .tete {
@@ -207,6 +208,51 @@
       .main-biografia .integrantes div img {
         width: 100%;
         height: 60%; }
+
+@media (min-width: 768px) {
+  .integrantes {
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr;
+    gap: 0px 0px;
+    grid-template-areas: "chizzo tete tanque manu"; }
+    .integrantes .chizzo {
+      grid-area: chizzo; }
+    .integrantes .tete {
+      grid-area: tete; }
+    .integrantes .tanque {
+      grid-area: tanque; }
+    .integrantes .manu {
+      grid-area: manu; }
+    .integrantes div {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: black; }
+      .integrantes div p {
+        font-family: "Dokdo", cursive;
+        line-height: 12px; }
+      .integrantes div img {
+        width: 100%;
+        height: 60%; }
+  .biografia {
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: justify; }
+    .biografia p {
+      font-family: "Space Mono", monospace; }
+    .biografia .img-1, .biografia .img-2, .biografia .img-3 {
+      float: left;
+      width: 35%;
+      margin: 15px; }
+    .biografia .img-2 {
+      float: right; }
+    .biografia .img-4 {
+      display: block;
+      margin: auto;
+      max-width: 80%; } }
 
 .main-contacto {
   margin-top: 150px;
